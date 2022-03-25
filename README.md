@@ -7,4 +7,11 @@ The data is publicly available on Kaggle and consists of 14 months of power outp
 ## Data Preprocessing
 The dataset consists of 21,045 rows and 17 columns. Let’s explore the available columns in the dataset using functions in pandas- Python data analysis library.
 
-https://miro.medium.com/max/686/1*mHTGJ08wYeSpy6QGT87Gpw.png
+# Feature engineering
+Here, create new features from existing ones to make categorical variables usable in our machine learning algorithms and also capture more patterns in the data.
+First, we perform the encoding of categorical variables namely location and season using the one-hot encoding method.
+
+# Conclusions
+Standard data science techniques have been applied to predicting the solar power output in 12 different locations. The results show that KNN is the best base model while the stacked model gave the overall best performance.
+The best model may be further trained for individual locations to achieve even better scores however, that is not covered in this analysis.
+Finally, the approach followed in this work can be used as a standard procedure to solve predictive analytics problems in the renewable energy space.
